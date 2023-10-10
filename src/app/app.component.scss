@@ -1,0 +1,38 @@
+.wrapper {
+  padding: 50px;
+  min-height: 300vh;
+  position: relative;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  left: 150px;
+  position: absolute;
+  top: 50vh;
+  &__green {
+    left: auto;
+    right: 150px;
+    top: 110vh;
+    background-color: green;
+    width: 220px;
+    height: 220px;
+  }
+  &__diagonal {
+    background-color: gray;
+    width: 310px;
+    height: 310px;
+    top: 85vh;
+    left: 350px;
+    &--second {
+      width: 120px;
+      height: 120px;
+      background-color: blue;
+      left: auto;
+      right: 250px;
+      top: 25vh;
+    }
+  }
+}
